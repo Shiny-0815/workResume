@@ -1,0 +1,79 @@
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,li{
+    list-style: none;
+}
+.all{
+    max-width: 750px;
+    margin: 50px auto;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.23);
+}
+.all >hr{
+    border: none;
+    height: 0;
+    border-top: 2px solid #F2F2F2;
+}
+.all >section .vertical{
+    width: 8px;
+    height: 53px;
+    background: #B595FF;
+    border-top-left-radius: 4px;
+    float: left;
+}
+.all >section >h1{  
+    font-size: 18px;
+    margin: 15px 0 12px 18px;
+    color: #323333;
+    float: left;
+}
+main .picture .aaa{
+    border:0;
+    vertical-align: bottom;
+    vertical-align: top;
+    width: 146px;
+    height: 168px;
+    float: left;    
+    border-radius: 6px;
+}
+main .introduction{
+    float: right;
+    width: 76%;  
+    word-break: break-all;  
+}
+.details >ol{
+    margin-top: 38px;
+}
+.details >ol >li .name{
+    font-size: 13px;
+    color: #25253D;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.10);
+    font-family: "等线 常规";    
+}
+.details >ol >li .answer{
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.13);
+    font-size: 14px;
+    color: #000;
+    font-family: "等线 常规";
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 5px 0 5px 5px;
+}
+.details >ol >li:nth-child(4){
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
+.details >ol >li .answer >img{
+    height: 105px;
+    margin: -5px 0 -10px -5px;
+    border-radius: 6px;
+}
+
